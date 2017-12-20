@@ -45,7 +45,7 @@ namespace glm
 	}
 
 	template <typename T, precision P> 
-	GLM_FUNC_QUALIFIER tmat2x3<T, P>::tmat2x3
+	GLM_FUNC_QUALIFIER GLM_CONSTEXPR_CTOR tmat2x3<T, P>::tmat2x3
 	(
 		T x0, T y0, T z0,
 		T x1, T y1, T z1
@@ -56,7 +56,7 @@ namespace glm
 	}
 
 	template <typename T, precision P> 
-	GLM_FUNC_QUALIFIER tmat2x3<T, P>::tmat2x3(col_type const & v0, col_type const & v1)
+	GLM_FUNC_QUALIFIER GLM_CONSTEXPR_CTOR tmat2x3<T, P>::tmat2x3(col_type const & v0, col_type const & v1)
 	{
 		this->value[0] = v0;
 		this->value[1] = v1;

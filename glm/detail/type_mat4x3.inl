@@ -53,7 +53,7 @@ namespace glm
 	}
 
 	template <typename T, precision P>
-	GLM_FUNC_QUALIFIER tmat4x3<T, P>::tmat4x3
+	GLM_FUNC_QUALIFIER GLM_CONSTEXPR_CTOR tmat4x3<T, P>::tmat4x3
 	(
 		T const & x0, T const & y0, T const & z0,
 		T const & x1, T const & y1, T const & z1,
@@ -68,7 +68,7 @@ namespace glm
 	}
 
 	template <typename T, precision P>
-	GLM_FUNC_QUALIFIER tmat4x3<T, P>::tmat4x3
+	GLM_FUNC_QUALIFIER GLM_CONSTEXPR_CTOR tmat4x3<T, P>::tmat4x3
 	(
 		col_type const & v0,
 		col_type const & v1,

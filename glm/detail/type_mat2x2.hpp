@@ -33,10 +33,10 @@ namespace glm
 
 		GLM_FUNC_DECL GLM_CONSTEXPR_CTOR explicit tmat2x2(ctor);
 		GLM_FUNC_DECL explicit tmat2x2(T scalar);
-		GLM_FUNC_DECL tmat2x2(
+		GLM_FUNC_DECL GLM_CONSTEXPR_CTOR tmat2x2(
 			T const & x1, T const & y1,
 			T const & x2, T const & y2);
-		GLM_FUNC_DECL tmat2x2(
+		GLM_FUNC_DECL GLM_CONSTEXPR_CTOR tmat2x2(
 			col_type const & v1,
 			col_type const & v2);
 
