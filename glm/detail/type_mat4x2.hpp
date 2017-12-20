@@ -21,7 +21,7 @@ namespace glm
 		typedef tmat2x4<T, P> transpose_type;
 		typedef T value_type;
 
-	private:
+	//private:
 		col_type value[4];
 
 	public:
